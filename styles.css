@@ -1,0 +1,50 @@
+/*
+
+*** 01 TYPOGRAPHY SYSTEM ***
+
+    Font sizes (rem):
+        1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
+
+    Font weights:
+        1 (default)
+
+    Line heights:
+        400 (default)
+
+*** 02 COLORS ***
+
+    Primary:
+        #e67e22
+    
+    Tints:
+
+    Shades:
+
+    Accents:
+
+    Greys:
+        #555
+    
+*** 05 SHADOWS ***
+
+*** 06 BORDER-RADIUS ***
+
+*** 07 WHITE-SPACE ***
+
+    Spacing system (rem):
+        0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.4 / 3.2 / 4.8 / 6.4 / 8.0 / 9.6 / 12.8
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: #555;
+}
