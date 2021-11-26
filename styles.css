@@ -73,8 +73,36 @@ body {
 /* REUSABLE COMPONENTS */
 /****************************/
 
+.container {
+	max-width: 120rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.grid {
+	display: grid;
+	gap: 9.6rem;
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+	grid-template-columns: repeat(4, 1fr);
+}
+
 .margin-right-sm {
 	margin-right: 1.6rem !important;
+}
+
+.margin-left-sm {
+	margin-left: 1.6rem !important;
 }
 
 .heading-primary {
@@ -201,15 +229,7 @@ body {
 }
 
 .hero {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 9.6rem;
-
-	align-items: center;
-
 	max-width: 130rem;
-	margin: 0 auto;
-	padding: 0 3.2rem;
 }
 
 .hero-description {
