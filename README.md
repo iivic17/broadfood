@@ -1,4 +1,4 @@
-# Omnifood
+# Omnifood content
 
 ## About Omnifood
 
@@ -130,6 +130,8 @@ Help center
 Privacy & terms
 
 ######
+
+# Defining and planning the project
 
 ## Sections
 
