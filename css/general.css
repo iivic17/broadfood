@@ -20,7 +20,7 @@ body {
 }
 
 /****************************/
-/* REUSABLE */
+/* REUSABLE COMPONENTS */
 /****************************/
 
 .container {
@@ -61,14 +61,33 @@ body {
 	margin-left: 1.6rem !important;
 }
 
+.heading-primary,
+.heading-secondary {
+	font-weight: 700;
+	color: #333;
+	letter-spacing: -0.5px;
+}
+
 .heading-primary {
 	font-size: 5.2rem;
-	font-weight: 700;
 	line-height: 1.05;
-	letter-spacing: -0.5px;
-	color: #333;
-
 	margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+	font-size: 4.4rem;
+	line-height: 1.2;
+	margin-bottom: 9.6rem;
+}
+
+.subheading {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #cf711f;
+	margin-bottom: 1.6rem;
+	letter-spacing: 1px;
 }
 
 .btn:link,

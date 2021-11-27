@@ -13,8 +13,7 @@
 
 #### Tints
 
--   #fdf2e9
--   #fff
+-   #fdf2e9 / #fff
 
 #### Shades
 
@@ -22,8 +21,7 @@
 
 #### Greys
 
--   #555
--   #333
+-   #555 /#333
 
 ## Typography
 
@@ -39,7 +37,11 @@
 
 #### Line Height
 
--   Line heights: 1 / 1.05 / 1.6
+-   Line heights: 1 / 1.05 / 1.2 / 1.6
+
+#### Letter Spacing
+
+-   Letter spacing (px): -0.5 / 1
 
 ## Shadows
 
