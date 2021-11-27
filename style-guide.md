@@ -1,4 +1,4 @@
-# Omnifood Style Guide
+# Omnifood style guide
 
 ## White Space
 
@@ -7,37 +7,37 @@
 
 ## Colors
 
-### Primary
+#### Primary
 
 -   #e67e22
 
-### Tints
+#### Tints
 
 -   #fdf2e9
 -   #fff
 
-### Shades
+#### Shades
 
 -   #cf711f
 
-### Greys
+#### Greys
 
 -   #555
 -   #333
 
 ## Typography
 
-### Body Copy
+#### Body Copy
 
 -   Font sizes (rem):
     1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
 
-### Font
+#### Font
 
 -   Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 -   Weights: 400 / 500 / 600 / 700
 
-### Line Height
+#### Line Height
 
 -   Line heights: 1 / 1.05 / 1.6
 
