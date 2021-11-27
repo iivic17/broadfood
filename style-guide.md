@@ -1,9 +1,8 @@
 # Omnifood style guide
 
-## White Space
+## White Space (rem)
 
--   Spacing system (rem):
-    0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.2 / 2.4 / 3.2 / 4.8 / 6.4 / 8.0 / 9.6 / 12.8
+-   0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.2 / 2.4 / 3.2 / 4.8 / 6.4 / 8.0 / 9.6 / 12.8
 
 ## Colors
 
@@ -13,7 +12,7 @@
 
 #### Tints
 
--   #fdf2e9 / #fff
+-   #fdf2e9 / #ffffff
 
 #### Shades
 
@@ -21,30 +20,32 @@
 
 #### Greys
 
--   #555 /#333
+-   #555555 / #333333
 
 ## Typography
 
-#### Body Copy
+#### Body Copy (rem)
 
--   Font sizes (rem):
-    1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
+-   1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
 
-#### Font
+#### Font Family
 
--   Family: [Rubik](https://fonts.google.com/specimen/Rubik)
--   Weights: 400 / 500 / 600 / 700
+-   [Rubik](https://fonts.google.com/specimen/Rubik)
+
+#### Font Weight
+
+-   400 / 500 / 600 / 700
 
 #### Line Height
 
--   Line heights: 1 / 1.05 / 1.2 / 1.6
+-   1 / 1.05 / 1.2 / 1.6
 
-#### Letter Spacing
+#### Letter Spacing (px)
 
--   Letter spacing (px): -0.5 / 1
+-   -0.5 / 1
 
 ## Shadows
 
-## Border Radius
+## Border Radius (px)
 
--   Border radius (px): 9
+-   9
