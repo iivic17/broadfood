@@ -336,7 +336,15 @@
 /****************************/
 
 .section-testimonials {
-	padding: 9.6rem 0;
+	background-color: hsl(27, 83%, 95%);
+
+	display: grid;
+	align-items: center;
+	grid-template-columns: 55fr 45fr;
+}
+
+.testimonials-container {
+	padding: 9.6rem;
 }
 
 .testimonials {
@@ -359,5 +367,27 @@
 
 .testimonial-name {
 	font-size: 1.6rem;
-	color: #777;
+	color: hsl(0, 0%, 44%);
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1.6rem;
+	padding: 1.6rem;
+}
+
+.gallery-item {
+	overflow: hidden;
+}
+
+.gallery-img {
+	width: 100%;
+	display: block;
+
+	transition: all 0.4s;
+}
+
+.gallery-img:hover {
+	transform: scale(1.1);
 }
