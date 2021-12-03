@@ -61,6 +61,10 @@ body {
 	margin-left: 1.6rem !important;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
