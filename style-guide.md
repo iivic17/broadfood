@@ -18,6 +18,10 @@ hsl(28, 74%, 47%)
 
 hsl(0, 0%, 20%) / hsl(0, 0%, 33%) / hsl(0, 0%, 60%) / hsl(0, 0%, 87%)
 
+#### Tags
+
+hsl(130, 57%, 56%)
+
 ## Typography
 
 #### Font Size (rem)
@@ -48,6 +52,8 @@ hsl(0, 0%, 20%) / hsl(0, 0%, 33%) / hsl(0, 0%, 60%) / hsl(0, 0%, 87%)
 
 #### Shadows
 
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+
 #### Border Radius (px)
 
-9
+9 / 11

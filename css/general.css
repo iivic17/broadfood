@@ -19,6 +19,10 @@ body {
 	color: hsl(0, 0%, 33%);
 }
 
+strong {
+	font-weight: 500;
+}
+
 /****************************/
 /* REUSABLE COMPONENTS */
 /****************************/
@@ -27,7 +31,6 @@ body {
 	max-width: 120rem;
 	padding: 0 3.2rem;
 	margin: 0 auto;
-	align-items: center;
 }
 
 .grid {
