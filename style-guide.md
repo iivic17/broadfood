@@ -52,7 +52,7 @@ hsl(130, 57%, 56%)
 
 #### Shadows
 
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075) / 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 
 #### Border Radius (px)
 
