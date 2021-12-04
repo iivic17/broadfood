@@ -59,10 +59,6 @@
 	padding: 0 4.8rem;
 }
 
-.logo {
-	height: 2.2rem;
-}
-
 /****************************/
 /* HERO SECTION */
 /****************************/
@@ -565,4 +561,12 @@
 		url('../assets/images/eating.jpg');
 	background-size: cover;
 	background-position: center;
+}
+
+/****************************/
+/* FOOTER */
+/****************************/
+
+.footer {
+	padding: 9.6rem 0;
 }
