@@ -8,6 +8,11 @@
 	box-sizing: border-box;
 }
 
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem hsl(28, 80%, 52%, 60%);
+}
+
 html {
 	font-size: 62.5%;
 }
@@ -130,17 +135,21 @@ strong {
 	color: hsl(28, 74%, 47%);
 }
 
+.btn,
 .btn:link,
 .btn:visited {
 	font-size: 2rem;
 	font-weight: 600;
+	font-family: inherit;
 	text-decoration: none;
+	cursor: pointer;
 
 	display: inline-block;
 
 	padding: 1.6rem 3.2rem;
 
 	border-radius: 9px;
+	border: none;
 
 	transition: all 0.3s;
 }
@@ -166,6 +175,18 @@ strong {
 .btn--outline:active {
 	background-color: hsl(27, 83%, 95%);
 	box-shadow: inset 0 0 0 3px hsl(0, 0%, 100%);
+}
+
+.btn--form {
+	background-color: hsl(28, 75%, 15%);
+	color: hsl(27, 83%, 95%);
+	padding: 1.2rem;
+	align-self: end;
+}
+
+.btn--form:hover {
+	background-color: hsl(27, 83%, 95%);
+	color: hsl(28, 75%, 15%);
 }
 
 .list {
