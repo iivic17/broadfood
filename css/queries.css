@@ -1,0 +1,21 @@
+/****************************/
+/* BELOW 1360px (Smaller laptops) */
+/****************************/
+
+@media (max-width: 85em) {
+	.hero {
+		max-width: 120rem;
+	}
+
+	.heading-primary {
+		font-size: 4.4rem;
+	}
+
+	.section-testimonials {
+		grid-template-columns: 65fr 35fr;
+	}
+
+	.gallery {
+		grid-template-columns: 1fr 1fr;
+	}
+}
