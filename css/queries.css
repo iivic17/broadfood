@@ -205,7 +205,7 @@
 	.feature-container {
 		grid-template-columns: 1fr 1fr;
 		gap: 4.8rem;
-		align-items: center;
+		align-items: start;
 		justify-content: center;
 		text-align: center;
 		width: 80%;
@@ -269,13 +269,32 @@
 		padding-top: 0;
 	}
 
+	.logos img {
+		height: 1.8rem;
+	}
+
 	.diets {
 		grid-column: 1 / -1;
 		justify-self: center;
 		margin-top: 3rem;
 	}
 
+	.section-testimonials {
+		grid-template-columns: 53fr 47fr;
+	}
+
 	.pricing-plan {
+		width: 100%;
+		padding: 2.4rem;
+	}
+
+	.pricing-plan--complete::after {
+		content: 'Best';
+		top: 3%;
+		right: -20%;
+	}
+
+	.feature-container {
 		width: 100%;
 	}
 
@@ -293,5 +312,102 @@
 	.logo-col,
 	.address-col {
 		grid-column: span 3;
+	}
+}
+
+/****************************/
+/* BELOW 560px (Phones) */
+/****************************/
+
+@media (max-width: 35em) {
+	body {
+		font-size: 43.75%;
+	}
+
+	.container {
+		padding: 0 6.2rem;
+	}
+
+	.grid {
+		column-gap: 3.2rem;
+	}
+
+	.heading-primary {
+		font-size: 3.6rem;
+	}
+
+	.heading-secondary {
+		font-size: 3rem;
+	}
+
+	.heading-tertiary {
+		font-size: 2.4rem;
+	}
+
+	.step-number {
+		font-size: 6.2rem;
+	}
+
+	.section-hero .btn {
+		display: block;
+		width: 70%;
+		margin: 0 auto !important;
+	}
+
+	.hero-text-box .btn:first-of-type {
+		margin-bottom: 1.4rem !important;
+	}
+
+	.logos {
+		gap: 1.6rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.step-img {
+		width: 50%;
+	}
+
+	.step-img-box::before {
+		width: 80%;
+		padding-bottom: 80%;
+	}
+
+	.step-img-box::after {
+		width: 65%;
+		padding-bottom: 65%;
+	}
+
+	.testimonials-container {
+		padding: 6.2rem 6.2rem 3rem 6.2rem;
+	}
+
+	.section-testimonials {
+		grid-template-columns: 1fr;
+	}
+
+	.testimonials {
+		margin: 0 auto;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.pricing-container {
+		grid-template-columns: 1fr;
+		width: 70%;
+	}
+}
+
+/****************************/
+/* BELOW 480px (Smaller phones) */
+/****************************/
+
+@media (max-width: 30em) {
+	.grid--2-cols,
+	.grid--3-cols,
+	.grid--4-cols {
+		grid-template-columns: 1fr;
 	}
 }
