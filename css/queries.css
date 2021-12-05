@@ -424,7 +424,7 @@
 	}
 
 	.step-img-box {
-		transform: translateY(3rem);
+		transform: translateY(3.5rem);
 	}
 
 	.step-img-box:nth-child(2) {
@@ -456,18 +456,23 @@
 		text-align: left;
 	}
 
+	.cta-container {
+		padding: 0;
+	}
+
 	.cta {
 		grid-template-columns: 1fr;
+		border-radius: 0;
 	}
 
 	.cta-image-box {
-		height: 28rem;
+		height: 32rem;
 		background-position: 1rem -5rem;
 		grid-row: 1;
 	}
 
 	.cta-text-box {
-		padding: 3.2rem;
+		padding: 4.8rem 3.2rem;
 	}
 
 	.cta-form input,
