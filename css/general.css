@@ -91,6 +91,10 @@ strong {
 	margin-bottom: 4.8rem !important;
 }
 
+.overflow-hidden {
+	overflow: hidden;
+}
+
 .text-center {
 	text-align: center !important;
 }
