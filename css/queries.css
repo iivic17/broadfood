@@ -79,7 +79,9 @@
 	}
 
 	.main-nav {
-		background-color: hsla(0, 0%, 100%, 0.97);
+		background-color: hsla(0, 0%, 100%, 0.85);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
 		position: absolute;
 		top: 0;
 		left: 0;
