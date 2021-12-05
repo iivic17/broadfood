@@ -69,6 +69,10 @@ strong {
 	align-items: center;
 }
 
+.grid--start-v {
+	align-items: start;
+}
+
 .margin-right-sm {
 	margin-right: 1.6rem !important;
 }
@@ -215,6 +219,8 @@ strong {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
+
+	line-height: 1.2;
 }
 
 .list-icon {
