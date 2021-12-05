@@ -345,7 +345,7 @@
 	}
 
 	.step-number {
-		font-size: 6.2rem;
+		font-size: 5.2rem;
 	}
 
 	.section-hero .btn {
@@ -409,5 +409,70 @@
 	.grid--3-cols,
 	.grid--4-cols {
 		grid-template-columns: 1fr;
+	}
+
+	.container {
+		padding: 0 6.4rem;
+	}
+
+	.testimonials-container {
+		padding: 6.4rem 6.4rem 3rem 6.4rem;
+	}
+
+	.heading-featured-in {
+		margin-bottom: 3rem;
+	}
+
+	.step-img-box {
+		transform: translateY(3rem);
+	}
+
+	.step-img-box:nth-child(2) {
+		grid-row: 1;
+	}
+
+	.step-img-box:nth-child(6) {
+		grid-row: 5;
+	}
+
+	.diets {
+		justify-self: start;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.pricing-container {
+		width: 100%;
+	}
+
+	.pricing-plan--complete::after {
+		top: 4%;
+		right: -15%;
+	}
+
+	.feature-container {
+		text-align: left;
+	}
+
+	.cta {
+		grid-template-columns: 1fr;
+	}
+
+	.cta-image-box {
+		height: 28rem;
+		background-position: 1rem -5rem;
+		grid-row: 1;
+	}
+
+	.cta-text-box {
+		padding: 3.2rem;
+	}
+
+	.cta-form input,
+	.cta-form select,
+	.btn--form {
+		padding: 1.6rem;
 	}
 }
