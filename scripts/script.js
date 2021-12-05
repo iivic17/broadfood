@@ -37,7 +37,7 @@ allLinks.forEach((el) => {
 			});
 		}
 
-		if (el.classList.contains('main-nav-link')) {
+		if (headerEl.classList.contains('nav-open')) {
 			toggleMobileNavigation();
 		}
 	});
