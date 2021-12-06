@@ -1,7 +1,33 @@
 /****************************/
+/* ABOVE 1792px (Larger laptops) */
+/****************************/
+@media (min-width: 112em) {
+	html {
+		font-size: 68.75%;
+	}
+}
+
+/****************************/
+/* ABOVE 2080px (Larger screens) */
+/****************************/
+@media (min-width: 130em) {
+	html {
+		font-size: 75%;
+	}
+}
+
+/****************************/
+/* ABOVE 2720px (Largest screens) */
+/****************************/
+@media (min-width: 170em) {
+	html {
+		font-size: 100%;
+	}
+}
+
+/****************************/
 /* BELOW 1360px (Smaller laptops) */
 /****************************/
-
 @media (max-width: 85em) {
 	.hero {
 		max-width: 120rem;
@@ -23,7 +49,6 @@
 /****************************/
 /* BELOW 1200px (Landscape tablets) */
 /****************************/
-
 @media (max-width: 75em) {
 	html {
 		font-size: 56.25%;
@@ -67,7 +92,6 @@
 /****************************/
 /* BELOW 944px (Tablets) */
 /****************************/
-
 @media (max-width: 59em) {
 	.container {
 		padding: 0 4.8rem;
@@ -251,7 +275,6 @@
 /****************************/
 /* BELOW 704px (Smaller tablets) */
 /****************************/
-
 @media (max-width: 44em) {
 	html {
 		font-size: 50%;
@@ -324,7 +347,6 @@
 /****************************/
 /* BELOW 560px (Phones) */
 /****************************/
-
 @media (max-width: 35em) {
 	body {
 		font-size: 43.75%;
@@ -409,7 +431,6 @@
 /****************************/
 /* BELOW 480px (Smaller phones) */
 /****************************/
-
 @media (max-width: 30em) {
 	.grid--2-cols,
 	.grid--3-cols,
