@@ -4,9 +4,9 @@
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
-    "name": "Never cook again! - Omnifood",
-    "short_name": "Omnifood",
-    "description": "Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.",
+    "name": "Never cook again! - Broadfood",
+    "short_name": "Broadfood",
+    "description": "Broadfood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.",
     "icons": [
         {
             "src": "assets/images/pwa/icon-192x192.png",

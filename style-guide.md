@@ -1,4 +1,4 @@
-# Omnifood style guide
+# Broadfood style guide
 
 ## Colors
 
